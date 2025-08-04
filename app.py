@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_webrtc import webrtc_streamer, WebRtcMode
 import geocoder
 import os
 import json
@@ -229,4 +228,5 @@ elif main_page == TEXT[st.session_state.language]["sections"][2]:
             images = glob.glob(image_pattern)
             if images:
                 st.image(images[0], caption=row['place_name'], use_container_width=True)
+
 
