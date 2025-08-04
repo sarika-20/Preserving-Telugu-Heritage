@@ -1,5 +1,11 @@
-streamlit
+streamlit>=1.35.0
 streamlit-webrtc
 geocoder
-pandas
 sqlalchemy
+pandas
+python-dotenv
+# uvicorn               # Only if you're using FastAPI or async server
+# numpy
+# opencv-python         # If using image/video processing
+# matplotlib
+# Pillow                # For image handling
